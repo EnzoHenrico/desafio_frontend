@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: 0;
+      font-size: 18px;
+      font-family: 'Epilogue', sans-serif;
+      font-weight: 500;
+      text-decoration: none
+    }
+
+    html {
+      --almostWhite: hsl(0, 0%, 98%);
+      --mediumGray: hsl(0, 0%, 41%);
+      --almostBlack: hsl(0, 0%, 8%);
+    }
+  </style>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Snap | Remote Word</title>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="navigation-bar">
+        <div class="main-logo">
+          <img src="/images/logo.svg" alt="snap logo">
+        </div>
+        <li>
+          <div class="dropdown">
+            <button>Features</button>
+            <img class="arrow" src="/images/icon-arrow-down.svg" alt="show more features options" />
+            <ul class="content" id="features">
+              <li>
+                <img src="/images/icon-todo.svg" alt="">
+                <a href="#">Todo List</a>
+              </li>
+              <li>
+                <img src="/images/icon-calendar.svg" alt="">
+                <a href="#">Calendar</a>
+              </li>
+              <li>
+                <img src="/images/icon-reminders.svg" alt="">
+                <a href="#">Reminders</a>
+              </li>
+              <li>
+                <img src="/images/icon-planning.svg" alt="">
+                <a href="#">Planning</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <button>Company</button>
+            <img class="arrow" src="/images/icon-arrow-down.svg" alt="show more company options" />
+            <ul class="content" id="company">
+              <li>
+                <a href="#">History</a>
+              </li>
+              <li>
+                <a href="#">Our Team</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="#">Carrers</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+      </ul>
+
+      <ul class="login-nav">
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <input class="default-button" id="register" type="button" value="Register">
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="hero">
+
+    <div class="left">
+      <div class="main-information">
+
+        <h1>Make remote work</h1>
+
+        <p>Get your team in sync, no matter your location.
+          Streamline process, create team rituals, and
+          watch productivity soar.
+        </p>
+
+        <input class="default-button" id="learn-more" type="button" value="Learn more">
+      </div>
+
+      <figure class="logos">
+        <img src="/images/client-databiz.svg" alt="databiz logo">
+        <img src="/images/client-audiophile.svg" alt="audiophile logo">
+        <img src="/images/client-meet.svg" alt="meet logo">
+        <img src="/images/client-maker.svg" alt="maker logo">
+      </figure>
+    </div>
+
+    <div class="right">
+      <figure class="main-image">
+        <img src="/images/image-hero-desktop.png" width="500px" alt="man with notebook">
+      </figure>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="attribution">
+      Challenge by&nbsp <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by&nbsp<a href="#">Enzo Henrico</a>.
+    </div>
+  </footer>
+</body>
+
+</html>

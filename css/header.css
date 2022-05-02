@@ -1,0 +1,129 @@
+/* General */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+
+    color: var(--mediumGray1);
+}
+
+a:visited {
+
+    color: var(--mediumGray1);
+}
+
+a:hover {
+
+    color: var(--almostBlack);
+}
+
+/* Login */
+
+.login-nav {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    color: var(--mediumGray);
+}
+
+#register {
+    border-color: var(--mediumGray);
+    padding: 12px 21px;
+    border-width: 2px;
+    color: var(--mediumGray);
+}
+
+#register:hover {
+    color: var(--almostBlack);
+}
+
+/* Navigation */
+
+.navigation-bar {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    color: var(--mediumGray);
+}
+
+/* Naviagation -> dropdown */
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+
+    font-size: 1rem;
+    border: none;
+    background: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: var(--mediumGray);
+
+}
+
+.dropdown button:hover {
+
+    color: var(--almostBlack);
+}
+
+.dropdown .arrow {
+
+    display: inline-flex;
+    margin: 1px 11px;
+    align-content: center;
+}
+
+.dropdown:hover .content {
+    display: block;
+    overflow: auto;
+
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    padding: 14px 25px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #0000003d;
+}
+
+.dropdown .content li {
+    padding: 5px;
+    display: inline-flex;
+    gap: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.dropdown .content img {
+    align-self: center;
+}
+
+#features {
+
+    left: -58px;
+    top: 38px;
+}
+
+#company {
+
+    left: -2px;
+    top: 38px;
+}
+
+
+/* Naviagation -> links*/
