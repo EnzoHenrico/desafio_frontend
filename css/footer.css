@@ -1,12 +1,13 @@
 .attribution {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 10%;
     color: var(--mediumGray);
-    font-size: 0.75rem;
+    font-size: 1.2rem;
+    margin: auto;
 }
 
 .attribution a {
     color: var(--mediumGray);
-    font-size: 0.75rem;
+    font-size: 1.2rem;
 }

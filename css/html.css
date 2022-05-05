@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-size: 62.5%;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+  }
+
+html,
+body {
+  height: 100vh;
+  --almostWhite: hsl(0, 0%, 98%);
+  --mediumGray: hsl(0, 0%, 41%);
+  --almostBlack: hsl(0, 0%, 8%);
+}
+
+a:link,
+a:visited {
+  color: var(--mediumGray1);
+}
+
+a:hover {
+
+  color: var(--almostBlack);
+}
+ 
+/* ↓ Media Queries ↓ */
+
+
+/* Desktop breakpoint */
+@media (max-width:1260px){  
+ 
+}
+
+/* Mobile breakpoint */
+@media (max-width:920px){
+ 
+}
+
+
+  

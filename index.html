@@ -7,26 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: 0;
-      font-size: 18px;
-      font-family: 'Epilogue', sans-serif;
-      font-weight: 500;
-      text-decoration: none
-    }
-
-    html {
-      --almostWhite: hsl(0, 0%, 98%);
-      --mediumGray: hsl(0, 0%, 41%);
-      --almostBlack: hsl(0, 0%, 8%);
-    }
-  </style>
   <link rel="stylesheet" href="./css/style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
@@ -37,72 +18,72 @@
 
 <body>
   <header>
-    <nav>
-      <ul class="navigation-bar">
-        <div class="main-logo">
-          <img src="./images/logo.svg" alt="snap logo">
-        </div>
-        <li>
-          <div class="dropdown">
-            <button>Features</button>
-            <img class="arrow" src="./images/icon-arrow-down.svg" alt="show more features options" />
-            <ul class="content" id="features">
-              <li>
-                <img src="./images/icon-todo.svg" alt="">
-                <a href="#">Todo List</a>
-              </li>
-              <li>
-                <img src="./images/icon-calendar.svg" alt="">
-                <a href="#">Calendar</a>
-              </li>
-              <li>
-                <img src="./images/icon-reminders.svg" alt="">
-                <a href="#">Reminders</a>
-              </li>
-              <li>
-                <img src="./images/icon-planning.svg" alt="">
-                <a href="#">Planning</a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </li>
+      <div class="container">
+        <nav>
+        <img src="./images/logo.svg" alt="snap logo">
+        <ul class="navigation-bar">
+          <li>
+            <div class="dropdown">
+              <button>Features</button>
+              <img class="arrow" src="./images/icon-arrow-down.svg" alt="show more features options" />
+              <ul class="content" id="features">
+                <li>
+                  <img src="./images/icon-todo.svg" alt="Agenda icon">
+                  <a href="#">Todo List</a>
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg" alt="Calendar icon">
+                  <a href="#">Calendar</a>
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="Bell icon">
+                  <a href="#">Reminders</a>
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="Clock icon">
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </div>
+          </li>
 
-        <li>
-          <div class="dropdown">
-            <button>Company</button>
-            <img class="arrow" src="./images/icon-arrow-down.svg" alt="show more company options" />
-            <ul class="content" id="company">
-              <li>
-                <a href="#">History</a>
-              </li>
-              <li>
-                <a href="#">Our Team</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </li>
+          <li>
+            <div class="dropdown">
+              <button>Company</button>
+              <img class="arrow" src="./images/icon-arrow-down.svg" alt="show more company options" />
+              <nav>
+                <ul class="content" id="company">
+                  <li>
+                    <a href="#">History</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Carrers</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </nav>
+        </ul>
 
-        <li>
-          <a href="#">Carrers</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-      </ul>
-
-      <ul class="login-nav">
-        <li>
-          <a href="#">Login</a>
-        </li>
-        <li>
-          <input class="default-button" id="register" type="button" value="Register">
-        </li>
-      </ul>
-    </nav>
+        <ul class="login-area">
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <input class="default-button" id="register" type="button" value="Register">
+          </li>
+        </ul>
+    </div>
+    
 
   </header>
 
